@@ -36,6 +36,7 @@
         "@ts-types/deep-partial": "^0.0.1",
         "pino": "^10.1.0",
         "ts-deepmerge": "^7.0.3",
+        "tsyringe": "^4.10.0",
         "zod": "^4.1.12"
     },
     "devDependencies": {
