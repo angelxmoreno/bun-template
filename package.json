@@ -29,6 +29,16 @@
         "lint:fix": "biome check --write .",
         "check": "bun run typecheck && bun run lint"
     },
+    "dependencies": {
+        "@keyvhq/core": "^2.1.11",
+        "@keyvhq/redis": "^2.1.11",
+        "@keyvhq/sqlite": "^2.1.11",
+        "@ts-types/deep-partial": "^0.0.1",
+        "pino": "^10.1.0",
+        "ts-deepmerge": "^7.0.3",
+        "tsyringe": "^4.10.0",
+        "zod": "^4.1.12"
+    },
     "devDependencies": {
         "@biomejs/biome": "^2.3.5",
         "@commitlint/cli": "^20.1.0",
@@ -39,8 +49,5 @@
     },
     "peerDependencies": {
         "typescript": "^5.9.3"
-    },
-    "dependencies": {
-        "pino": "^10.1.0"
     }
 }
