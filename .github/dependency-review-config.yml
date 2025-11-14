@@ -6,6 +6,3 @@ allow-licenses:
   - BSD-3-Clause
   - ISC
   - 0BSD
-deny-licenses:
-  - GPL-3.0
-  - AGPL-3.0
