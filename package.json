@@ -30,6 +30,9 @@
         "check": "bun run typecheck && bun run lint"
     },
     "dependencies": {
+        "@keyvhq/core": "^2.1.11",
+        "@keyvhq/redis": "^2.1.11",
+        "@keyvhq/sqlite": "^2.1.11",
         "@ts-types/deep-partial": "^0.0.1",
         "pino": "^10.1.0",
         "ts-deepmerge": "^7.0.3",
